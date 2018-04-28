@@ -14,7 +14,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Title</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">8dp</item>
     </style>
 
     <!-- Style for the attraction information -->
@@ -23,12 +23,21 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
         <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">4dp</item>
     </style>
 
+    <!-- Style for the additional attraction details. -->
+    <style name="AdditionalInfoStyle" parent="AttractionDetailsStyle">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body2</item>
+
+    </style>
+
+    <!-- Style for the image about the attraction -->
     <style name="ImageStyle">
         <item name="android:layout_height">@dimen/image_max_height</item>
         <item name="android:layout_width">@dimen/image_max_width</item>
-        <!--<item name="android:layout_gravity">top|right</item>-->
+        <item name="android:scaleType">centerCrop</item>
     </style>
 
 </resources>

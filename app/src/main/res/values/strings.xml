@@ -4,5 +4,56 @@
     <string name="app_name">VisitTata</string>
 
 
+    <!-- Information about the Castle -->
+    <string name="castle">Castle</string>
+
+    <string name="castle_details">Built at the end of 1300s, used as summer residence
+        of kings. Fortified, then used in the 16-17th centuriesduring the wars against
+        the Ottoman Empire.</string>
+
+    <string name="castle_address">Location: 3 Váralja Street, Tata 2890</string>
+
+    <!-- Information about the Esterházy Palace -->
+    <string name="esterhazy_palace">Esterházy Palace</string>
+
+    <string name="esterhazy_palace_details">Baroque palace. Designed by Jakab Fellener. Built in
+        the 1700s, by the count Esterházy family in the 18th century. Used as residence of the
+        family until the World War II, then became an asylum, later as a hospital. Currently out of use. </string>
+
+    <string name="esterhazy_palace_address">Location: 3 Kastély Square, Tata 2890</string>
+
+    <!-- Information about the Belfry -->
+    <string name="belfry">Belfry (Clock Tower)</string>
+
+    <string name="belfry_details">Built in the 1700s. Designed by Jakab Fellner. Renovated in 2004.
+        The digital clockwork rings on of the 495 chimes, five minutes before every hour. </string>
+
+    <string name="belfry_address">Location: Országgyűlés Square, Tata 2890</string>
+
+    <!-- Information about the Fellner Lookout -->
+    <string name="lookout">Fellner Lookout</string>
+
+    <string name="lookout_details">Built in the late 1700s. Designed by Antal Schweiger. Built on the
+    Calvary Hill. 40 meter high, 200 stairs leads to the top.</string>
+
+    <string name="lookout_address">Location: Kálváriadomb, Tata 2890</string>
+
+    <!-- Information about the Temple of the Holy Cross -->
+    <string name="temple">Temple of the Holy Cross</string>
+
+    <string name="temple_details">Baroque church, built in the mid and late 1700s. Designed by
+        Franz Anton Pilgram, Jakab Fellner and József Grossmann. It has two bells, the one in the
+        northern tower weights 560 kg, the other in the southern tower is 3200 kg.</string>
+
+    <string name="temple_address">Location: 15 Kossuth Square, Tata 2890</string>
+
+    <!-- Information about the Temple of the Holy Cross -->
+    <string name="small_palace">Small Palace</string>
+
+    <string name="small_palace_details">Baroque palace. Originally built as a summer residence of the
+        count Esterházy family. Now it is located in a nice forest park with a lake. Great place
+        to chill out. Next to the palace there is an outdoor concert venue.</string>
+
+    <string name="small_palace_address">Location: Angolkert, Tata 2890</string>
 
 </resources>

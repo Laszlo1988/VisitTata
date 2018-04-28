@@ -3,7 +3,8 @@
     <dimen name="min_height">88dp</dimen>
     <dimen name="margin_horizontal">16dp</dimen>
     <dimen name="margin_vertical">16dp</dimen>
-    <dimen name="image_max_height">116dp</dimen>
-    <dimen name="image_max_width">116dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="image_max_height">128dp</dimen>
+    <dimen name="image_max_width">128dp</dimen>
 
 </resources>

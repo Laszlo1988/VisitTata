@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="@dimen/min_height"
-    tools:background="@android:color/white">
+    tools:background="#F5F5F5">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,6 +14,8 @@
             android:id="@+id/text_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/image"
+            android:layout_toStartOf="@id/image"
             android:orientation="vertical">
 
             <TextView
@@ -23,31 +25,31 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 tools:background="@color/colorPrimaryDark"
-                tools:text="Castle" />
+                tools:text="@string/castle" />
 
             <TextView
                 android:id="@+id/attraction_details"
                 style="@style/AttractionDetailsStyle"
-                tools:text="Medieval castle, 16th century fortifications" />
+                tools:text="@string/castle_details" />
 
             <TextView
                 android:id="@+id/additional_info_1"
-                style="@style/AttractionDetailsStyle"
-                tools:text="Location info" />
+                style="@style/AdditionalInfoStyle"
+                tools:text="@string/castle_address" />
 
             <TextView
                 android:id="@+id/additional_info_2"
-                style="@style/AttractionDetailsStyle"
+                style="@style/AdditionalInfoStyle"
                 tools:text="Location info" />
         </LinearLayout>
 
         <ImageView
             android:id="@+id/image"
             style="@style/ImageStyle"
-            android:contentDescription="null"
-            android:scaleType="fitCenter"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            tools:src="@tools:sample/avatars" />
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/tata_castle" />
 
     </RelativeLayout>
 
