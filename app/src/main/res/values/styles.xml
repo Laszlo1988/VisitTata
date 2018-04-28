@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for the name of an attraction in the town. -->
+    <style name="AttractionNameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Title</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Style for the attraction information -->
+    <style name="AttractionDetailsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ImageStyle">
+        <item name="android:layout_height">@dimen/image_max_height</item>
+        <item name="android:layout_width">@dimen/image_max_width</item>
+        <!--<item name="android:layout_gravity">top|right</item>-->
+    </style>
+
+</resources>

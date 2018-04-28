@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/min_height"
+    tools:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/attraction_name"
+                style="@style/AttractionNameStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                tools:background="@color/colorPrimaryDark"
+                tools:text="Castle" />
+
+            <TextView
+                android:id="@+id/attraction_details"
+                style="@style/AttractionDetailsStyle"
+                tools:text="Medieval castle, 16th century fortifications" />
+
+            <TextView
+                android:id="@+id/additional_info_1"
+                style="@style/AttractionDetailsStyle"
+                tools:text="Location info" />
+
+            <TextView
+                android:id="@+id/additional_info_2"
+                style="@style/AttractionDetailsStyle"
+                tools:text="Location info" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            style="@style/ImageStyle"
+            android:contentDescription="null"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            tools:src="@tools:sample/avatars" />
+
+    </RelativeLayout>
+
+</LinearLayout>
