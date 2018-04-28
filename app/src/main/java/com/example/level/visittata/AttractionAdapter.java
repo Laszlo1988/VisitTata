@@ -65,9 +65,13 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         TextView attractionDetailsTextView = (TextView) listItemView.findViewById(R.id.attraction_details);
         attractionDetailsTextView.setText(currentAttraction.getAttractionDetails());
 
-        // Find the TextView in the location_item.xml layout with the ID version_number
-        TextView additionalAttractionInfoTextView = (TextView) listItemView.findViewById(R.id.additional_info_1);
-        additionalAttractionInfoTextView.setText(currentAttraction.getAdditionalAttractionInfo());
+        //If there is valid additional information, the adapter displays it.
+        if (currentAttraction.hasAdditionalInfo()) {
+
+            // Find the TextView in the location_item.xml layout with the ID version_number
+            TextView additionalAttractionInfoTextView = (TextView) listItemView.findViewById(R.id.additional_info_1);
+            additionalAttractionInfoTextView.setText(currentAttraction.getAdditionalAttractionInfo());
+        }
 
         // Find the ImageView in the list_item.xml layout with the ID list_item_icon
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);

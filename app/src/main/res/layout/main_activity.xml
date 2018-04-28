@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.level.visittata.MainActivity">
-    <!--android:background="@color/primary_color"-->
 
     <!--<android.support.design.widget.TabLayout-->
     <!--android:id="@+id/sliding_tabs"-->

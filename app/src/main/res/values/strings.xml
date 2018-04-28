@@ -3,12 +3,25 @@
     <!-- The name of the app. -->
     <string name="app_name">VisitTata</string>
 
+    <!-- The name of the Architecture tab -->
+    <string name="architecture">Architecture</string>
+
+    <!-- The name of the Outdoor tab -->
+    <string name="outdoor">Outdoor</string>
+
+    <!-- The name of the Events tab -->
+    <string name="events">Events</string>
+
+    <!-- The name of the Eat and Stay tab -->
+    <string name="eat_and_stay">Eat&amp;Stay</string>
+
+    <!--Strings for the ArchitectureFragment are below: -->
 
     <!-- Information about the Castle -->
     <string name="castle">Castle</string>
 
     <string name="castle_details">Built at the end of 1300s, used as summer residence
-        of kings. Fortified, then used in the 16-17th centuriesduring the wars against
+        of kings. Fortified, then used in the 16-17th centuries during the wars against
         the Ottoman Empire.</string>
 
     <string name="castle_address">Location: 3 Váralja Street, Tata 2890</string>
@@ -17,7 +30,7 @@
     <string name="esterhazy_palace">Esterházy Palace</string>
 
     <string name="esterhazy_palace_details">Baroque palace. Designed by Jakab Fellener. Built in
-        the 1700s, by the count Esterházy family in the 18th century. Used as residence of the
+        the 1700s, by the count Esterházy family in the 18th century. Used as the residence of the
         family until the World War II, then became an asylum, later as a hospital. Currently out of use. </string>
 
     <string name="esterhazy_palace_address">Location: 3 Kastély Square, Tata 2890</string>
@@ -47,7 +60,7 @@
 
     <string name="temple_address">Location: 15 Kossuth Square, Tata 2890</string>
 
-    <!-- Information about the Temple of the Holy Cross -->
+    <!-- Information about the Small Palace -->
     <string name="small_palace">Small Palace</string>
 
     <string name="small_palace_details">Baroque palace. Originally built as a summer residence of the
@@ -55,5 +68,145 @@
         to chill out. Next to the palace there is an outdoor concert venue.</string>
 
     <string name="small_palace_address">Location: Angolkert, Tata 2890</string>
+
+
+    <!--Strings for the OutdoorFragment are below: -->
+
+    <!-- Information about the outdoor activities around the Old lake -->
+    <string name="old_lake">Stroll around the\nOld Lake</string>
+
+    <string name="old_lake_details">Fancy for a walk around lake, or just find a great spot for
+        picnic? A full circle around the lake is about 7 kilometer. Around the lake you can find bars
+        and restaurants, historic monuments and architecture, concert venues, and also nice parks.
+        </string>
+
+    <string name="old_lake_address">Location: Old Lake, Tata 2890</string>
+
+    <!-- Information about the Ecotourism Center -->
+    <string name="ecotourism">Ecotourism Center and\nKayak House</string>
+
+    <string name="ecotourism_details">Water sports and recreational activities are available, such as
+        kayaking, canoeing, dragon boating, outriggering, etc.
+        Other services: Bicycle rental, Segway tours, Local hiking tours, Gym, Conference rooms
+        </string>
+
+    <string name="ecotourism_address">Location: 2 Tópart sétány, Tata 2890</string>
+
+    <!-- Information about the 'Fényes" Nature Trail -->
+    <string name="nature_trail">\'Fényes\' Education Trail</string>
+
+    <string name="nature_trail_details">A nice trail built on a swamp. A Beautiful place, where you can
+        see birds, snakes, turtles, frogs, or even beavers in their original habitat. Worth to try it
+        for families with children as well.
+        </string>
+
+    <string name="nature_trail_address">Location: Fényes fasor, Tata</string>
+
+    <!-- Information about the Old Lake Golf Club -->
+    <string name="golf_club">Old Lake Golf Club</string>
+
+    <string name="golf_club_details">Beautiful golf course close to Budapest. Nice hotel with all
+        the service you need.</string>
+
+    <string name="golf_club_address">Location: Remeteség puszta, Tata 2890</string>
+
+    <!-- Information about 'Deritő' Lake -->
+    <string name="lake_derito">Derítő Lake</string>
+
+    <string name="lake_derito_details">Quiet piece of nature hidden in the forrest. Lake with
+        houseboats all around it, popular for fishing. Lake is accessible by car from main road
+        or by foot from nerby camp. Some of the houseboats are also available for rent. There is
+        also a buffet and shop with fishing accessories.</string>
+
+    <string name="lake_derito_address">Location: Tata 2890</string>
+
+    <!-- Information about Aggostyán Arboretum -->
+    <string name="arboretum">Aggostyán Arboretum</string>
+
+    <string name="arboretum_details"> Peace and nature. Finally some clean air to breathe with and
+        rest for tired eyes. It is s a good idea to go there on a hot day because the walk in the
+        forest is refreshing. Recommended to families with children. </string>
+
+    <string name="arboretum_address">Location: Bocsájtó völgy, Aggostyán (village), 5 km from Tata.</string>
+
+    <!--Strings for the EventsFragment are below: -->
+
+    <!-- Information about Historical Festival -->
+    <string name="historical_festival">"Tatai Patara 1597"\nHistorical festival</string>
+
+    <string name="historical_festival_details"> An authentic presentation of the military
+        traditions, cultural history of the 16-17th century during the wars against the Ottoman Empire.
+        The festival is also a colourful demonstration of the Turkish and Christian culture. The festival\'s
+        main event is the re-enactment of the siege of Caste Tata in 1597, in authentic uniforms and
+        military equipment of that period.</string>
+
+    <string name="historical_festival_address">18-20 May 2018. Programs are all around the town.\n
+        The historical siege takes place in the castle.</string>
+
+    <!-- Information about Water, Music, Flower Festival -->
+    <string name="music_festival">"Water, Music, Flower Festival</string>
+
+    <string name="music_details"> The biggest Hungarian family festival is traditionally hold in the
+        last weekend of June in Tata. The Festival has a wonderful location, in the center of the
+        city, by the Old Lake. The water and flower programs – the water carnival in the Old Lake,
+        with boats lighted by thousands of lanterns, the airshow, or the Hungarian floral design
+        competition in the Castle – give the festival a special beauty.</string>
+
+    <string name="music_address">21-24 June 2018. Multiple locations, concert venues all\n
+        around the town.</string>
+
+    <!-- Information about Folk Festival -->
+    <string name="folk_festival">\'Tatai Sokadalom\'\nFolk Festival</string>
+
+    <string name="folk_festival_details">Hungarian folk dances, concerts, gastronomy, handcraft market</string>
+
+    <string name="folk_festival_address">15–17 June 2018 in Angolpark, Tata 2890</string>
+
+    <!-- Information about Horsemen's Fair on St. George's Day -->
+    <string name="horse_festival">Horsemen\'s Fair\non St. George's Day</string>
+
+    <string name="horse_festival_details">The festival is about the traditions of riding in Hungary
+        and in Europe, and also tries to make riding more popular as a sport or a lifestyle.</string>
+
+    <string name="horse_festival_address">28 April 2018, Tata 2890</string>
+
+
+    <!--Strings for the Eat&StayFragment are below. -->
+
+    <string name="ebreszto_cafe">\'Awaken\' Cafe</string>
+
+    <string name="ebreszto_cafe_details">A trendy place where you can drink excellent quality coffees,
+        teas, smoothies. You can also have healthy snacks and cakes.\n38 Hajdú Street, Tata 2890 </string>
+
+    <string name="chocolate_shop">\'A Csokizó\'\nChocolate Shop &amp; Cafe</string>
+
+    <string name="chocolate_shop_details">Exquisite quality chocolates, truffles, hot chocolates,
+        chocolate cakes. Definitely a must and not just for a chocolate lover.\n2/5 Alkotmány Street,
+        Tata 2890 </string>
+
+    <string name="don_salvatore_pizza">Don Salvatore Pizzeria</string>
+
+    <string name="don_salvatore_details">This place is the home of original italian pizzas, run by its
+        Italian owner\nÉpítők parkja, Tata 2890 </string>
+
+    <string name="fishermens_inn">Fishermen\'s Inn</string>
+
+    <string name="fishermens_details">10 Tópart Street, Tata 2890 </string>
+
+    <string name="hotel_kristaly">Kirtály Imperial Hotel</string>
+
+    <string name="hotel_kristaly_details">Elegant and modern.\n22 Ady Endre Street, Tata 2890 </string>
+
+    <string name="casablanca_pension">Casablanca Pension</string>
+
+    <string name="casablanca_pension_details">3 Tópart sétány, Tata 2890 </string>
+
+    <string name="oregto_club_hotel">Öreg-tó Club Hotel</string>
+
+    <string name="oregto_club_details">4 Fáklya Street, Tata 2890 </string>
+
+    <string name="hotel_kiss">Hotel Kiss</string>
+
+    <string name="hotel_kiss_details">54 Bacsó Béla Street, Tata 2890 </string>
 
 </resources>

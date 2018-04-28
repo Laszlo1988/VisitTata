@@ -7,6 +7,9 @@ public class Attraction {
     //This constant is for using as a default state  of the mImageResourceId variable.
     private static final int NO_IMAGE_PROVIDED = -1;
 
+    //This constant is for using as a default state  of the mAdditionalAttractionInfoResId variable.
+    private static final int NO_DETAIL_PROVIDED = -1;
+
     //Name of the attraction.
     private int mAttractionNameResId;
 
@@ -14,7 +17,7 @@ public class Attraction {
     private int mAttractionDetailsResId;
 
     //Additional information to the tourist attraction.
-    private int mAdditionalAttractionInfoResId;
+    private int mAdditionalAttractionInfoResId = NO_DETAIL_PROVIDED;
 
     //Image for the tourist attraction.
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -23,7 +26,7 @@ public class Attraction {
      * Create a new Attraction object.
      *
      * @param attractionNameResId           is the name of the tourist attraction
-     * @param attractionDetailsResId        contains the details of the tourist attraction
+     * @param attractionDetailsResId        contains the details about the tourist attraction
      * @param additionalAttractionInfoResId is containing additional information about the tourist
      *                                      attraction, e.g. address, opening hours, contact info
      * @param imageResourceId               is a picture of the tourist attraction
@@ -38,6 +41,19 @@ public class Attraction {
         mAdditionalAttractionInfoResId = additionalAttractionInfoResId;
 
         mImageResourceId = imageResourceId;
+    }
+
+    /**
+     * Create a new Attraction object.
+     *
+     * @param attractionNameResId    is the name of the tourist attraction
+     * @param attractionDetailsResId contains the details about the tourist attraction
+     */
+    public Attraction(int attractionNameResId, int attractionDetailsResId) {
+
+        mAttractionNameResId = attractionNameResId;
+
+        mAttractionDetailsResId = attractionDetailsResId;
     }
 
     //Get the attraction name.
@@ -58,6 +74,11 @@ public class Attraction {
     //Get the image associated with the words.
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    //Returns whether or not there is additional attraction information or not.
+    public boolean hasAdditionalInfo() {
+        return mAdditionalAttractionInfoResId != NO_DETAIL_PROVIDED;
     }
 
     //Returns whether or not there is an image for this word.

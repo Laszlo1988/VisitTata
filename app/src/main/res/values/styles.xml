@@ -40,4 +40,16 @@
         <item name="android:scaleType">centerCrop</item>
     </style>
 
+    <!--&lt;!&ndash; Style for a tab that displays a category name &ndash;&gt;-->
+    <!--<style name="CategoryTab" parent="@style/Widget.Design.TabLayout">-->
+    <!--<item name="tabIndicatorColor">@android:color/white</item>-->
+    <!--<item name="tabSelectedTextColor">@android:color/white</item>-->
+    <!--<item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Text appearance style for a category tab &ndash;&gt;-->
+    <!--<style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">-->
+    <!--<item name="android:textColor">#A8A19E</item>-->
+    <!--</style>-->
+
 </resources>

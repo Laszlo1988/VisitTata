@@ -37,10 +37,6 @@
                 style="@style/AdditionalInfoStyle"
                 tools:text="@string/castle_address" />
 
-            <TextView
-                android:id="@+id/additional_info_2"
-                style="@style/AdditionalInfoStyle"
-                tools:text="Location info" />
         </LinearLayout>
 
         <ImageView
