@@ -31,15 +31,15 @@
 
     <string name="esterhazy_palace_details">Baroque palace. Designed by Jakab Fellener. Built in
         the 1700s, by the count Esterházy family in the 18th century. Used as the residence of the
-        family until the World War II, then became an asylum, later as a hospital. Currently out of use. </string>
+        family until World War II, then became a psychiatric clinic, later as a hospital. Currently out of use. </string>
 
     <string name="esterhazy_palace_address">Location: 3 Kastély Square, Tata 2890</string>
 
     <!-- Information about the Belfry -->
     <string name="belfry">Belfry (Clock Tower)</string>
 
-    <string name="belfry_details">Built in the 1700s. Designed by Jakab Fellner. Renovated in 2004.
-        The digital clockwork rings on of the 495 chimes, five minutes before every hour. </string>
+    <string name="belfry_details">Built in the mid 1700s. Designed by Jakab Fellner. Renovated in 2004.
+        The digital clockwork rings a tune of 495 chimes, five minutes before every hour. </string>
 
     <string name="belfry_address">Location: Országgyűlés Square, Tata 2890</string>
 
@@ -56,7 +56,7 @@
 
     <string name="temple_details">Baroque church, built in the mid and late 1700s. Designed by
         Franz Anton Pilgram, Jakab Fellner and József Grossmann. It has two bells, the one in the
-        northern tower weights 560 kg, the other in the southern tower is 3200 kg.</string>
+        northern tower weights 560 kg, the other one in the southern tower is 3200 kg.</string>
 
     <string name="temple_address">Location: 15 Kossuth Square, Tata 2890</string>
 
@@ -75,9 +75,10 @@
     <!-- Information about the outdoor activities around the Old lake -->
     <string name="old_lake">Stroll around the\nOld Lake</string>
 
-    <string name="old_lake_details">Fancy for a walk around lake, or just find a great spot for
-        picnic? A full circle around the lake is about 7 kilometer. Around the lake you can find bars
-        and restaurants, historic monuments and architecture, concert venues, and also nice parks.
+    <string name="old_lake_details">Fancy for a stroll around lake, or just find a great spot for
+        picnic? The Old Lake is definitely a must for you. A full circle around the lake is about
+        7 kilometer. By the lake in the town you can also find bars and restaurants, historic monuments and
+        architecture, concert venues.
         </string>
 
     <string name="old_lake_address">Location: Old Lake, Tata 2890</string>
@@ -95,8 +96,8 @@
     <!-- Information about the 'Fényes" Nature Trail -->
     <string name="nature_trail">\'Fényes\' Education Trail</string>
 
-    <string name="nature_trail_details">A nice trail built on a swamp. A Beautiful place, where you can
-        see birds, snakes, turtles, frogs, or even beavers in their original habitat. Worth to try it
+    <string name="nature_trail_details">A nice trail built on a swamp. A beautiful place, where you can
+        see birds, snakes, turtles, frogs, or even beavers in their wild habitat. Worth to visit it
         for families with children as well.
         </string>
 
@@ -105,17 +106,17 @@
     <!-- Information about the Old Lake Golf Club -->
     <string name="golf_club">Old Lake Golf Club</string>
 
-    <string name="golf_club_details">Beautiful golf course close to Budapest. Nice hotel with all
-        the service you need.</string>
+    <string name="golf_club_details">Beautiful golf course. The lawn is always neat. You can stay in
+        a nice hotel with all the service you need.</string>
 
     <string name="golf_club_address">Location: Remeteség puszta, Tata 2890</string>
 
     <!-- Information about 'Deritő' Lake -->
     <string name="lake_derito">Derítő Lake</string>
 
-    <string name="lake_derito_details">Quiet piece of nature hidden in the forrest. Lake with
+    <string name="lake_derito_details">Quiet piece of nature, hidden in the forrest. Lake with
         houseboats all around it, popular for fishing. Lake is accessible by car from main road
-        or by foot from nerby camp. Some of the houseboats are also available for rent. There is
+        or by foot from nearby camp. Some of the houseboats are also available for rent. There is
         also a buffet and shop with fishing accessories.</string>
 
     <string name="lake_derito_address">Location: Tata 2890</string>
@@ -124,7 +125,7 @@
     <string name="arboretum">Aggostyán Arboretum</string>
 
     <string name="arboretum_details"> Peace and nature. Finally some clean air to breathe with and
-        rest for tired eyes. It is s a good idea to go there on a hot day because the walk in the
+        rest for tired eyes. It is a good idea to go there on a hot day because the walk in the
         forest is refreshing. Recommended to families with children. </string>
 
     <string name="arboretum_address">Location: Bocsájtó völgy, Aggostyán (village), 5 km from Tata.</string>
@@ -137,7 +138,7 @@
     <string name="historical_festival_details"> An authentic presentation of the military
         traditions, cultural history of the 16-17th century during the wars against the Ottoman Empire.
         The festival is also a colourful demonstration of the Turkish and Christian culture. The festival\'s
-        main event is the re-enactment of the siege of Caste Tata in 1597, in authentic uniforms and
+        main event is the re-enactment of the siege of Castle Tata in 1597, in authentic uniforms and
         military equipment of that period.</string>
 
     <string name="historical_festival_address">18-20 May 2018. Programs are all around the town.\n
@@ -146,9 +147,9 @@
     <!-- Information about Water, Music, Flower Festival -->
     <string name="music_festival">"Water, Music, Flower Festival</string>
 
-    <string name="music_details"> The biggest Hungarian family festival is traditionally hold in the
+    <string name="music_details"> The biggest Hungarian festival for families is traditionally hold in the
         last weekend of June in Tata. The Festival has a wonderful location, in the center of the
-        city, by the Old Lake. The water and flower programs – the water carnival in the Old Lake,
+        town, by the Old Lake. The water and flower programs – the water carnival in the Old Lake,
         with boats lighted by thousands of lanterns, the airshow, or the Hungarian floral design
         competition in the Castle – give the festival a special beauty.</string>
 
@@ -163,10 +164,10 @@
     <string name="folk_festival_address">15–17 June 2018 in Angolpark, Tata 2890</string>
 
     <!-- Information about Horsemen's Fair on St. George's Day -->
-    <string name="horse_festival">Horsemen\'s Fair\non St. George's Day</string>
+    <string name="horse_festival">Horsemen\'s Fair on \nSt. George\'s Day</string>
 
     <string name="horse_festival_details">The festival is about the traditions of riding in Hungary
-        and in Europe, and also tries to make riding more popular as a sport or a lifestyle.</string>
+        and Europe. The organisers aim to make riding more popular as a sport or a lifestyle.</string>
 
     <string name="horse_festival_address">28 April 2018, Tata 2890</string>
 

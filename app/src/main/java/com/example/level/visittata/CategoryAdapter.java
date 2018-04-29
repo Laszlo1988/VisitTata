@@ -14,10 +14,11 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Context of the app
      */
+    private Context mContext;
 
-
-    public CategoryAdapter(FragmentManager fm) {
+    public CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
+        mContext = context;
     }
 
     @Override
@@ -38,17 +39,17 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         return 4;
     }
 
-//    @Override
-//    public CharSequence getPageTitle(int position) {
-//        if (position == 0) {
-//            return mContext.getString(R.string.architecture);
-//        } else if (position == 1) {
-//            return mContext.getString(R.string.outdoor);
-//        } else if (position == 2) {
-//            return mContext.getString(R.string.events);
-//        } else {
-//            return mContext.getString(R.string.eat_and_stay);
-//        }
-//    }
+    @Override
+    public CharSequence getPageTitle(int position) {
+        if (position == 0) {
+            return mContext.getString(R.string.architecture);
+        } else if (position == 1) {
+            return mContext.getString(R.string.outdoor);
+        } else if (position == 2) {
+            return mContext.getString(R.string.events);
+        } else {
+            return mContext.getString(R.string.eat_and_stay);
+        }
+    }
 }
 
